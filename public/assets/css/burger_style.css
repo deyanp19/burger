@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css?family=Dokdo" rel="stylesheet" rel="stylesheet');
 
  
+
 
 body { 
   background: url(../img/background.jpg) no-repeat center center fixed; 
@@ -14,33 +15,39 @@ body {
 }
 
 #header {
-  background-color: rgba(40,39,39,0.7);
+  background-color: rgba(40,39,39,1);
   font-family: "Paytone One", sans-serif;
-  border: 3px solid white;
+  
+  border-radius: 16px;
 }
 
 #card-display {
   background-color: rgba(40,39,39,0.7);
   font-family: "Paytone One", sans-serif;
   color: greenyellow;
-  border: 2px solid white;
+   
+  border-radius: 16px;
 }
 
 #card-display .row {
   margin: 0 auto;
   font-size: 20px;
   color: white;
-  border-bottom: 1px solid white;
+ 
+  border-radius: 16px;
 }
 
 #burger-form {
   margin-top: 50px;
+  border-radius: 16px;
 }
 
 #burger-form input {
   margin: 20px 5px;
+  border-radius: 16px;
 }
 
 .addBurgerBtn {
   margin: 15px 0;
+  border-radius: 16px;
 }

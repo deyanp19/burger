@@ -12,8 +12,8 @@ This app uses express-handlebars to generate dynamic webpagees fed by the server
 This app uses CRUD - Create, Read, Update, Delete database connections through routes
 ### Screenshots
 
-![Database](./public/assets/img/burgers_db.png)
-
+![Database](/public/assets/img/burgers_db.png)
+![Database](/public/assets/img/burgersApp.png)
  ### Installing
 
  
