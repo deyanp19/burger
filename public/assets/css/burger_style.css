@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet');
+
+ 
+
+body { 
+  background: url(../img/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Shrikhand', cursive;
+  color: white;
+  
+}
+
+#header {
+  background-color: rgba(40,39,39,0.7);
+  font-family: "Paytone One", sans-serif;
+  border: 3px solid white;
+}
+
+#card-display {
+  background-color: rgba(40,39,39,0.7);
+  font-family: "Paytone One", sans-serif;
+  color: greenyellow;
+  border: 2px solid white;
+}
+
+#card-display .row {
+  margin: 0 auto;
+  font-size: 20px;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+#burger-form {
+  margin-top: 50px;
+}
+
+#burger-form input {
+  margin: 20px 5px;
+}
+
+.addBurgerBtn {
+  margin: 15px 0;
+}
