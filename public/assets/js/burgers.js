@@ -15,27 +15,7 @@ $(function(){
       });
   
     });
-  
-  
-    /* $(".devour-btn").on("click", function() {
-      console.log("working");
-      var id = $(this).data("id");
-      var isDevoured = $(this).data("devoured");
-      
-      var updatedBurger = {
-        devoured = isDevoured
-      };
-      
-      $.ajax("/burgers/" + id, {
-        type: "PUT",
-        data: updatedBurger
-      }).then(function() {
-        console.log("Updated burger id" + id + "as devoured");
-      });
-      
-    }) */
-    
-    
+ 
     $(".remove-btn").on("click", function(event) {
       event.preventDefault();
       
